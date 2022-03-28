@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chiriac Bees 2020</title>
+  <link rel="icon" href="../images/bee.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <script src="../js/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <img class="header-logo" src="../images/logo.png" alt="logoul siteului" />
+    <div id="navbar" class="nav">
+     <a href="../index.html">Despre noi</a>
+     <a href="produse.html">Produse apicole</a>
+     <a href="utilizare.html">Utilizarea mierii</a>
+     <a href="contacte.html" class="active">Contacte</a>
+     <a class="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars"></i></a>
+    </div>
+  </header>
+  <div class="container">
+    <br />
+    <div class="row">
+      <div class="col-4">
+        <div class="contact-form">
+          <h3>Contactează-mă</h3>
+          <hr>
+          <form>
+            <label for="nume">Numele:</label><br />
+            <input class="input-box" type="text" name="nume" id="nume" /><br />
+
+            <label for="email">Email:</label><br />
+            <input class="input-box" type="email" name="email" id="email" /><br />
+
+            <label for="motiv">Motivul:</label><br />
+
+            <select class="input-box" name="motiv" id="email">
+              <option>Vreu să procur miere</option>
+              <option>Vreau să procur lucrări din ceară</option>
+            </select>
+            <br /><br />
+            <input class="input-submit" type="submit" value="Tansmite" />
+          </form>
+        </div>
+
+      </div>
+      <div class="col-6 centered">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xsSaJ9Wd6K8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+
+      </div>
+    </div>
+      <hr>
+      <div class="row">
+        <div class="col-4">
+          <div class="container-contacte">
+          <h3>Contacte</h3>
+          <hr>
+          <b>Număr de contact: </b><span><br/> +37379978182</span> <br/>
+          <b>Adresa:</b><span><br/> r.Anenii Noi, <br/>
+            sat.Chirca</span><br/>
+            <b>Ore de lucru:</b><span><br/> Zilnic: 9:00 - 20:00</span><br/><br/>
+          </div>
+          
+            <b>Link la facebook:</b>
+            <div class="container-limbaje">
+              <a href="https://www.facebook.com/Chiriac-Bees-2020-110259194932607" target="_blank">
+                <img class="img-limbaj" src="../images/facebook.jpg" alt="facebook"/>
+              </a>
+              
+            </div>
+        </div>
+        <div class="col-6">
+          <div class="harta centered" >
+             <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43595.027899639506!2d29.07460855893035!3d46.92849117701076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c974645fbc5159%3A0x1a54f6ced924429!2z0JrQuNGA0LrQsCwg0JzQvtC70LTQsNCy0LjRjw!5e0!3m2!1sru!2s!4v1647700653630!5m2!1sru!2s"
+             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+<br/> <br/>
+
+
+
+  <img onclick="show()" class="icon rotire" src="../images/tel.png">
+    <footer>
+      <div class="centered footer-info">
+        <span>Chiriac Bees. ©️</span>
+        <span>2020 </span>
+      </div>
+    </footer>
+    <script>
+      function show() {
+        document.getElementById("tipuri").style.visibility = "vizible"
+      }
+    </script>
+
+</body>
+
+</html>
